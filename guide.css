@@ -4,12 +4,6 @@ body{
     background: linear-gradient(#faa307,white,#faa307,white);
     
 }
-#meerut-img{
-    border-radius: 20%;
-   width:70%;
-   margin-bottom: 63px;
-  
-}
 #zenitsu-img{
     width: 28%;
     max-width:263px; 
@@ -20,7 +14,6 @@ body{
 }
 .visit{
     display: block;
-    justify-content: space-between;
     width: 91%;
     border: solid 1px black;
     border-radius: 50%;
@@ -34,18 +27,13 @@ body{
 .padding1{
     width: 48%;
     display: block;
-    justify-content: center;
     padding: 23px;
     padding-top: 32px;
     
 }
-.place{
+.place,padding5{
     padding: 3%;
 }
-.place5{
-    padding: 3%;
-}
-    
     
 .place-main{
     padding: 100px;
@@ -70,4 +58,12 @@ span{
     margin-top: 241px;
     border: solid 2px #faa307;
     border-radius: 10%;
+}
+.meerut-image{
+    background-image: url("meerut.png");
+    border-radius: 20%;
+    background-size: cover;
+    width:100%;
+    height: 56vh;
+    margin-bottom: 63px;
 }
